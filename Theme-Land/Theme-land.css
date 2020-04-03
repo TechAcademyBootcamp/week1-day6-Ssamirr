@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&display=swap');
+body{
+    overflow-x:hidden;
+    background: #fcfafa;
+    box-sizing: border-box;
+}
+.Basliq{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    display: flex;
+}
+.logo{
+width: 50%;
+}
+.list-header{
+   display: flex;
+   list-style-type: none;
+   }
+.list-header li a{
+    white-space: nowrap;
+    text-decoration:none;
+    margin-right:  20px;
+    color: #fff;
+    }
+    .ul1 li{
+        display: none;
+    }
+    .ul2 li{
+        display: none;
+    }
+    .list-header li:hover .ul1{
+        display: block;
+    }
+   
+
+.arxafon{
+    background: rgb(235, 105, 126);
+    position: absolute;
+    height: 190%;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    transform: translate(35%,-28%) rotate(-35deg);
+    z-index: -5;
+    border-radius: 120px;
+}
+.intro{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    display: flex;
+}
+.s1{
+    margin-top: 150px;
+    width: 60%;
+    }
+.h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    opacity: 0.4;
+    }
+.h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    opacity: 0.9;
+    }
+    #prolend{
+        font-weight: 100;
+        color: black;
+    }
+    .p1{
+        opacity: 0.6;
+    }
+    .logos1{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -140px;
+        }
+.img{
+    margin-top: 120px;
+    animation: drop 3s ease;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes drop{
+        0%,100%{
+            transform: translateY(40px;)
+        }
+        50%{
+            transform: translateY(-40px)
+        }
+    }
+.all{
+    width: 85%;
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-evenly;
+}
+.all .mid{
+    width: 330px;
+    height: 280px;
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+    box-shadow: 2px 2px 0px rgb(0,0,0,0.12);
+    }
+.mid h1{
+    font-size: 20px;
+}
+.mid p{
+    padding: 0px 30px;
+    opacity: 0.8;
+    font-size: 14px;
+    }
+.mid:hover{
+    margin-top: -20px;
+    transition-duration: 0.5s;
+}
+
+
